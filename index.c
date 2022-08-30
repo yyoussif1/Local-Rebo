@@ -6,12 +6,12 @@ int main ()
 
     printf("Hello !\n");
     sum = add( x , y );
-    printf("%d" , sum);
-    
+    printf("%d\n" , sum);
+
     return 0;
 }
 
 int add(int a , int b)
 {
-    return a+b;
+    return a/b;
 }
